@@ -12,7 +12,7 @@
 	<artifactId>mini-authorizer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mini-authorizer</name>
-	<description>Api do projeto de bibliotecas</description>
+	<description>Api do projeto de miniautorizador</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -24,6 +24,18 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-mysql</artifactId>
+			<version>8.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.11</version>
 		</dependency>
 
 		<dependency>
